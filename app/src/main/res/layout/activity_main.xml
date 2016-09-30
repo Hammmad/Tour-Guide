@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.shekhchilli.tourguide.MainActivity">
+
+    <ImageView
+        android:src="@drawable/minar_e_pakistan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="center"
+        android:layout_weight="3"/>
+    <TextView
+        style="@style/categoty"
+        android:background="@color/colorRstaurant"
+        android:id="@+id/restraunt_textview"
+        android:text="Restraunts"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        style="@style/categoty"
+        android:background="@color/colorPlaces"
+        android:gravity="center_vertical"
+        android:id="@+id/places_textview"
+        android:text="Historical Places"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        style="@style/categoty"
+        android:background="@color/colorMuseum"
+        android:id="@+id/museum_textview"
+        android:text="Museums"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
